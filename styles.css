@@ -1,0 +1,79 @@
+.navbar {
+  margin-top: 30px;
+}
+
+.container-fluid {
+  background-color: #f6bc3a;
+  border-radius: 4px;
+  padding: 4px 4px 4px 4px;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+}
+
+.jumbotron {
+  background-image: url(http://specteh2012.opt.ru/files/project_1838/SP/Samosval_SHAANXI_6x4_SX3255DR384.jpeg);
+  background-position: center top 200px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  padding-top: 0;
+  padding-bottom: 450px;
+}
+
+.jumbotron h2 {
+  font-size: 55px;
+}
+
+.headdiv {
+  margin-right: 20px;
+  color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1200px)  {
+  .jumbotron {
+    background-position: center top 300px;
+    padding-bottom: 500px;
+  }
+}
+
+@media (max-width: 768px)  {
+  .jumbotron {
+    /*background-position: center top 300px;*/
+    padding-bottom: 500px;
+  }
+}
+
+@media (max-width: 470px)  {
+  .jumbotron h1 {
+    font-size: 20px;
+  }
+  .jumbotron h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 620px)  {
+  .jumbotron {
+    background-size: 90% 40%;
+  }
+}
+
+#item1 {
+  background-color: rgb(233, 233, 233);
+  padding-bottom: 500px;
+  margin-top: 60px;
+}
+
+#item2 {
+  padding-bottom: 500px;
+}
+
+#item3 {
+  background-color: rgb(233, 233, 233);
+  padding-bottom: 500px;
+}
+
+#item4 {
+  padding-bottom: 500px;
+}
