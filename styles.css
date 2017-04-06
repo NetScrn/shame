@@ -12,7 +12,14 @@
   color: black;
 }
 
-.jumbotron {
+.big-ul {
+  font-size: 50px;
+}
+
+.big-ul li {
+  padding-top: 39px;
+}
+.hello {
   background-image: url(http://kasouz.xyz/content/images/2015-11/1447943081.jpg);
   background-size:  60%;
   background-position: center top 100px;
